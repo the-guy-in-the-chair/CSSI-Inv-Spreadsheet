@@ -1,3 +1,5 @@
+This project creates an Excel spreadsheet populated with items from a Rest API database.
+
 DEPENDENCIES:
 
 openpyxl - to generate and populate a spreadsheet
