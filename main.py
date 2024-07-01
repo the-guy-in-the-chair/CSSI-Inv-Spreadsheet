@@ -28,7 +28,7 @@ sheet = workbook.active
 #
 current_page = 1
 items_per_page = 50
-dict_keys = ['name', 'cssi_id', 'custom_price', 'map_price', 'drop_ship_price', 'retail_price']
+dict_keys = ['name', 'cssi_id', 'custom_price', 'map_price', 'drop_ship_price', 'retail_price', 'retail_map_price']
 payload = {'page' : current_page, 'per_page' : items_per_page}
 
 # connecting to API using custom auth header instead of requests HTTPBasicAuth method
